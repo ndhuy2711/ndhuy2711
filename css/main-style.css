@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666; margin:0; line-height:1.5em}
+section{ margin:20px 0; padding:50px 0; display:block }
+.topbar{ background:#d7d7d7; min-height:40px; line-height:40px}
+header{ min-height:100px; background:#eee}
+header .logo{}
+header nav{ margin-top:55px; min-height:30px}
+header nav ul{ margin:0; padding:0; list-style:none}
+header nav ul li{ float:left; position:relative}
+header nav ul li a{ color:#063; text-decoration:none; padding:0 15px; line-height:30px; font-weight:bold; display:block}
+header nav ul li a:hover,header nav ul li a.active{ background:#063; color:#fff}
+.banner{ min-height:500px; }
+.ndwelcome{ background:#0C9; min-height:200px}
+.ctdm{ min-height:150px; background:#C9C}
+#sanpham{ min-height:800px; background:#eee}
+.ctsp{ min-height:200px; padding:15px; text-align:center; background:#fff}
+.ctbanner{ min-height:600px; background:#063; padding:20px 60px 320px 60px; background:#FFF; position:relative; font-size:18px; line-height:1.5em }
+.img-banner{ position:absolute; bottom:0; left:0}
+
+.search-form{ position:relative}
+.input-style{ height:30px; border:1px solid #666; border-radius:30px; padding-left:10px}
+.btn-v{ position:absolute; right:5px; top:5px; background:none; border:none; cursor:pointer; color:#063}
+main{ min-height:500px}
+footer{ min-height:500px; background:#7d7d7d; padding-top:20px; color:#fff}
+.menuchan{ margin-top:120px}
+.menuchan h4{ margin-bottom:5px; color:#0F0}
+.menuchan a{ display:block; color:#FFF; text-decoration:none}
+.menuchan a:hover{ color:#6F3}
+

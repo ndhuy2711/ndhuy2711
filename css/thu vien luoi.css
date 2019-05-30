@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+p,h1,h2,h3,section,nav,header,footer,main,ul{ display:block}
+* {
+  box-sizing: border-box; outline:none
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{ width:1200px; margin:0 auto}
+.f-left{ float:left}
+.f-right{ float:right}
+.text-right{ text-align:right}
+.text-center{ text-align:center}
+.col-1-offset{ margin-left:8.33%}
+.col-2-offset{ margin-left:16.66%}
+.no-pading{ padding:0}
+.w100{ width:100%; height:auto}
+.text-xanhla{ color:#093; font-size:16px}
